@@ -53,15 +53,15 @@ export default function HeroSection() {
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-full backdrop-blur-sm">
                 <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
                 <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
-                  Lorem Ipsum Dolor
+                  Estratégia para PMES
                 </span>
               </div>
               
               <h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight whitespace-nowrap"
+                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 700 }}
               >
-                Lorem Ipsum Dolor Sit
+                Pare de apagar incêndios e comece a escalar
               </h1>
             </div>
             
@@ -69,7 +69,7 @@ export default function HeroSection() {
               className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-xl"
               style={{ fontFamily: 'Avenir, sans-serif' }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Transforme o caos comercial da sua empresa em um motor de crescimento previsível com o nosso Planejamento Estratégico sob medida para PMES.
             </p>
             
             {/* CTA Principal */}
@@ -79,7 +79,7 @@ export default function HeroSection() {
                 className="group relative px-16 py-5 bg-white text-black font-semibold text-lg rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_25px_50px_rgba(96,165,250,0.35)] active:scale-95 inline-flex items-center justify-center min-w-[280px]"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 600 }}
               >
-                <span className="relative z-10">Adquirir Planejamento</span>
+                <span className="relative z-10">Quero meu planejamento</span>
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#60a5fa]/30 via-white/20 to-[#60a5fa]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
               </button>
             </div>

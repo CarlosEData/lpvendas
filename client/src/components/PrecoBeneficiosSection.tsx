@@ -14,19 +14,19 @@ export default function PrecoBeneficiosSection() {
   const installments = 10; // Número de parcelas
 
   const benefits = [
-    { icon: Target, text: 'Lorem ipsum dolor sit amet consectetur' },
-    { icon: TrendingUp, text: 'Adipiscing elit sed do eiusmod tempor' },
-    { icon: Users, text: 'Incididunt ut labore et dolore magna' },
-    { icon: Zap, text: 'Aliqua ut enim ad minim veniam' },
-    { icon: Clock, text: 'Quis nostrud exercitation ullamco' },
-    { icon: Shield, text: 'Laboris nisi ut aliquip ex ea commodo' },
+    { icon: Target, text: 'Diagnóstico completo do cenário atual' },
+    { icon: TrendingUp, text: 'Definição de metas e KPIs de crescimento' },
+    { icon: Users, text: 'Estruturação do time e processos comerciais' },
+    { icon: Zap, text: 'Plano tático de canais de aquisição' },
+    { icon: Clock, text: 'Cronograma detalhado de implementação' },
+    { icon: Shield, text: 'Suporte pós-entrega para ajustes' },
   ];
 
   const features = [
-    { icon: Check, label: 'Lorem Ipsum Dolor', value: 'Sit Amet Consectetur' },
-    { icon: Check, label: 'Adipiscing Elit Sed', value: 'Do Eiusmod Tempor' },
-    { icon: Check, label: 'Incididunt Ut Labore', value: 'Et Dolore Magna' },
-    { icon: Check, label: 'Aliqua Ut Enim Ad', value: 'Minim Veniam Quis' },
+    { icon: Check, label: 'Duração', value: '4 Semanas' },
+    { icon: Check, label: 'Entregável', value: 'PDF + Dashboard' },
+    { icon: Check, label: 'Reuniões', value: '4 Encontros' },
+    { icon: Check, label: 'Suporte', value: '30 Dias' },
   ];
 
   const guarantees = [
@@ -64,7 +64,7 @@ export default function PrecoBeneficiosSection() {
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            Invista na clareza estratégica que sua empresa precisa para parar de patinar e começar a lucrar de verdade.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export default function PrecoBeneficiosSection() {
               {/* CTA principal */}
               <div className="space-y-4">
                 <button className="w-full py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 active:scale-95 text-lg">
-                  Adquirir Planejamento Agora
+                  Quero meu planejamento
                 </button>
                 
                 <div className="text-center">
@@ -229,7 +229,7 @@ export default function PrecoBeneficiosSection() {
               </div>
               
               <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 whitespace-nowrap">
-                Adquirir Agora
+                Quero meu planejamento
               </button>
             </div>
             

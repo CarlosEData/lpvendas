@@ -15,27 +15,27 @@ export default function ProcessoSection() {
   const steps = [
     {
       number: '01',
-      title: 'Lorem Ipsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.',
-      features: ['Análise detalhada', 'Diagnóstico completo', 'Mapeamento de oportunidades']
+      title: 'Imersão e Diagnóstico',
+      description: 'Mergulhamos nos números e processos da sua empresa para entender onde o dinheiro está ficando pelo caminho.',
+      features: ['Análise de funil', 'Auditoria de processos', 'Mapeamento de gargalos']
     },
     {
       number: '02',
-      title: 'Dolor Sit Amet',
-      description: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      features: ['Estratégia personalizada', 'Plano de ação', 'Cronograma definido']
+      title: 'Desenho da Estratégia',
+      description: 'Criamos o mapa de guerra. Definimos canais, metas e as táticas que serão usadas para escalar.',
+      features: ['Plano de ação 90 dias', 'Definição de KPIs', 'Manual de processos']
     },
     {
       number: '03',
-      title: 'Consectetur Adipiscing',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.',
-      features: ['Implementação faseada', 'Acompanhamento contínuo', 'Ajustes em tempo real']
+      title: 'Execução Guiada',
+      description: 'Não te deixamos sozinho. Acompanhamos a implementação para garantir que o plano saia do papel.',
+      features: ['Treinamento de time', 'Ajustes táticos', 'Mentoria semanal']
     },
     {
       number: '04',
-      title: 'Elit Sed Do',
-      description: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.',
-      features: ['Otimização final', 'Escalabilidade', 'Relatórios completos']
+      title: 'Otimização e Escala',
+      description: 'Com a máquina rodando, ajustamos os parafusos para aumentar a eficiência e reduzir o custo de aquisição.',
+      features: ['Análise de ROI', 'Escala de canais', 'Previsibilidade total']
     },
   ];
 
@@ -61,15 +61,14 @@ export default function ProcessoSection() {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Lorem Ipsum{' '}
+            Como vamos construir sua{' '}
             <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-              Dolor Sit
-            </span>{' '}
-            Amet
+              Máquina de Vendas
+            </span>
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            Um passo a passo claro e validado para tirar sua PME da estagnação e colocá-la na rota do crescimento.
           </p>
         </div>
 
@@ -220,7 +219,7 @@ export default function ProcessoSection() {
             </div>
             
             <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
-              <span>Adquirir Agora</span>
+              <span>Quero meu planejamento</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>

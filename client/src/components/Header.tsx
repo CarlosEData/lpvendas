@@ -113,9 +113,9 @@ export default function Header() {
               onClick={handleCtaClick}
               className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
             >
-              Adquirir Planejamento
-            </button>
-          </div>
+                Quero meu planejamento
+              </button>
+            </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -153,7 +153,7 @@ export default function Header() {
                   }}
                   className="block w-full px-4 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-colors shadow-md focus:outline-none"
                 >
-                  Adquirir Planejamento
+                  Quero meu planejamento
                 </button>
               </div>
             </nav>
