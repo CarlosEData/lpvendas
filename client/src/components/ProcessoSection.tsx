@@ -40,7 +40,7 @@ export default function ProcessoSection() {
   ];
 
   return (
-    <section className="relative py-16 lg:py-20 overflow-hidden">
+    <section id="processo" className="relative py-16 lg:py-20 overflow-hidden">
       {/* Fundo gradiente */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0b0b1a] to-[#3331c1]" />
       

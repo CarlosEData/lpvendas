@@ -55,6 +55,13 @@ export default function Header() {
         top: offsetPosition,
         behavior: 'smooth'
       });
+    } else {
+      // Fallback para navegação padrão se o elemento não for encontrado imediatamente
+      const id = href.replace('#', '');
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
