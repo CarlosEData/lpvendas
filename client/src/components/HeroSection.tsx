@@ -33,7 +33,7 @@ export default function HeroSection() {
         {Array.from({ length: 15 }).map((_, i) => (
           <div
             key={i}
-            className="absolute h-[1px] bg-gradient-to-r from-transparent via-blue-400/30 to-transparent"
+            className="absolute h-[1px] bg-gradient-to-r from-transparent via-[#3331c1]/30 to-transparent"
             style={{
               top: `${i * 7}%`,
               width: `${20 + i * 2}%`,
@@ -51,8 +51,8 @@ export default function HeroSection() {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-full backdrop-blur-sm">
-                <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
+                <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
+                <span className="text-sm font-medium text-[#3331c1]" style={{ fontFamily: 'Avenir, sans-serif' }}>
                   Planejamento Estratégico Comercial
                 </span>
               </div>
@@ -80,7 +80,7 @@ export default function HeroSection() {
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 600 }}
               >
                 <span className="relative z-10">Quero meu planejamento</span>
-                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#60a5fa]/30 via-white/20 to-[#60a5fa]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#3331c1]/30 via-white/20 to-[#3331c1]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
               </button>
             </div>
           </div>

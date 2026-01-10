@@ -62,13 +62,13 @@ export default function MetodologiaSection() {
             >
               <defs>
                 <linearGradient id="exponentialGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#3b82f6" />
-                  <stop offset="100%" stopColor="#3b82f6" />
+                  <stop offset="0%" stopColor="#3331c1" />
+                  <stop offset="100%" stopColor="#3331c1" />
                 </linearGradient>
                 
                 <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.2" />
-                  <stop offset="100%" stopColor="#3b82f6" stopOpacity="0" />
+                  <stop offset="0%" stopColor="#3331c1" stopOpacity="0.2" />
+                  <stop offset="100%" stopColor="#3331c1" stopOpacity="0" />
                 </linearGradient>
               </defs>
 
@@ -127,7 +127,7 @@ export default function MetodologiaSection() {
                     cy={point.y}
                     r="5"
                     fill="white"
-                    stroke="#3b82f6"
+                    stroke="#3331c1"
                     strokeWidth="2"
                   />
                   <text
@@ -154,8 +154,8 @@ export default function MetodologiaSection() {
                   key={index}
                   className="bg-white rounded-xl border border-gray-200 p-5 hover:border-gray-300 transition-colors h-full flex flex-col"
                 >
-                  <div className="mb-4 inline-flex p-3 bg-blue-50 rounded-lg">
-                    <Icon className="w-5 h-5 text-blue-600" />
+                  <div className="mb-4 inline-flex p-3 bg-[#3331c1] rounded-lg">
+                    <Icon className="w-5 h-5 text-[#3331c1]" />
                   </div>
 
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
@@ -173,7 +173,7 @@ export default function MetodologiaSection() {
 
         {/* CTA abaixo dos cards */}
         <div className="mt-12 lg:mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-gradient-to-r from-[#3331c1] to-[#3331c1] rounded-2xl border border-[#3331c1]">
             <div className="text-left">
               <h4 className="font-bold text-gray-900 text-lg mb-1">
                 Pronto para crescimento exponencial?
@@ -182,7 +182,7 @@ export default function MetodologiaSection() {
                 Agende uma consultoria gratuita e veja como aplicar esta metodologia no seu negócio
               </p>
             </div>
-            <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
+            <button className="px-6 py-3 bg-[#3331c1] hover:bg-[#3331c1] text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
               Quero meu planejamento
             </button>
           </div>

@@ -42,7 +42,7 @@ export default function PrecoBeneficiosSection() {
       
       {/* Elementos decorativos */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
+        <div className="absolute top-20 right-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
         <div className="absolute bottom-20 left-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
       </div>
 
@@ -50,15 +50,15 @@ export default function PrecoBeneficiosSection() {
         {/* Título da seção */}
         <div className="text-center mb-12 lg:mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span className="text-sm font-medium text-blue-100">
+            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
+            <span className="text-sm font-medium text-[#3331c1]">
               Investimento Único
             </span>
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Planejamento Estratégico{' '}
-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
               Comercial
             </span>
           </h2>
@@ -72,11 +72,11 @@ export default function PrecoBeneficiosSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-16 lg:mb-20">
           {/* Card de preço único */}
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000" />
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-[#3331c1] to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000" />
             <div className="relative bg-gradient-to-br from-gray-900 to-gray-950 rounded-2xl border border-white/10 p-8 lg:p-10">
               {/* Badge exclusivo */}
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                <div className="px-4 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm font-semibold rounded-full shadow-lg">
+                <div className="px-4 py-1.5 bg-gradient-to-r from-[#3331c1] to-purple-500 text-white text-sm font-semibold rounded-full shadow-lg">
                   Produto Exclusivo
                 </div>
               </div>
@@ -109,8 +109,8 @@ export default function PrecoBeneficiosSection() {
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-center justify-between py-3 border-b border-white/5 last:border-0">
                     <div className="flex items-center gap-3">
-                      <div className="p-2 bg-blue-500/10 rounded-lg">
-                        <feature.icon className="w-4 h-4 text-blue-400" />
+                      <div className="p-2 bg-[#3331c1]/10 rounded-lg">
+                        <feature.icon className="w-4 h-4 text-[#3331c1]" />
                       </div>
                       <span className="text-gray-300">{feature.label}</span>
                     </div>
@@ -121,7 +121,7 @@ export default function PrecoBeneficiosSection() {
 
               {/* CTA principal */}
               <div className="space-y-4">
-                <button className="w-full py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 active:scale-95 text-lg">
+                <button className="w-full py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 active:scale-95 text-lg">
                   Quero meu planejamento
                 </button>
                 
@@ -158,8 +158,8 @@ export default function PrecoBeneficiosSection() {
                     key={index}
                     className="group flex items-start gap-4 p-5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300"
                   >
-                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-600/20 flex items-center justify-center group-hover:from-blue-500/30 group-hover:to-blue-600/30 transition-all">
-                      <benefit.icon className="w-5 h-5 text-blue-400" />
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-[#3331c1]/20 to-[#3331c1]/20 flex items-center justify-center group-hover:from-[#3331c1]/30 group-hover:to-[#3331c1]/30 transition-all">
+                      <benefit.icon className="w-5 h-5 text-[#3331c1]" />
                     </div>
                     <div className="flex-1">
                       <span className="text-gray-300 leading-relaxed">
@@ -179,8 +179,8 @@ export default function PrecoBeneficiosSection() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
-                    <Zap className="w-4 h-4 text-blue-400" />
+                  <div className="w-8 h-8 rounded-lg bg-[#3331c1]/10 flex items-center justify-center">
+                    <Zap className="w-4 h-4 text-[#3331c1]" />
                   </div>
                   <div>
                     <p className="font-medium text-white">Lorem Ipsum</p>
@@ -205,8 +205,8 @@ export default function PrecoBeneficiosSection() {
         {/* CTA final */}
         <div className="mt-16 lg:mt-20 text-center">
           <div className="inline-flex flex-col items-center gap-6 p-8 lg:p-10 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm rounded-2xl border border-white/10 max-w-3xl mx-auto">
-            <div className="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl">
-              <Star className="w-8 h-8 text-blue-400" />
+            <div className="p-3 bg-gradient-to-br from-[#3331c1]/20 to-purple-500/20 rounded-xl">
+              <Star className="w-8 h-8 text-[#3331c1]" />
             </div>
             
             <h3 className="text-2xl lg:text-3xl font-bold text-white">
@@ -228,7 +228,7 @@ export default function PrecoBeneficiosSection() {
                 </div>
               </div>
               
-              <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 whitespace-nowrap">
+              <button className="px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 whitespace-nowrap">
                 Quero meu planejamento
               </button>
             </div>

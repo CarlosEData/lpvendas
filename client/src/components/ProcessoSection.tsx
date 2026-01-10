@@ -46,7 +46,7 @@ export default function ProcessoSection() {
       
       {/* Elementos decorativos */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 left-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#3331c1]/20 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
       </div>
 
@@ -54,15 +54,15 @@ export default function ProcessoSection() {
         {/* Título da seção */}
         <div className="text-center mb-12 lg:mb-16 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span className="text-sm font-medium text-blue-100">
+            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
+            <span className="text-sm font-medium text-[#3331c1]">
               Processo de Trabalho
             </span>
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Como vamos construir sua{' '}
-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
               Máquina de Vendas
             </span>
           </h2>
@@ -75,7 +75,7 @@ export default function ProcessoSection() {
         {/* Timeline interativa */}
         <div className="relative">
           {/* Linha de conexão */}
-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500/30 via-blue-400/50 to-blue-300/30 transform md:translate-x-[-1px] hidden md:block" />
+          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#3331c1]/30 via-[#3331c1]/50 to-[#3331c1]/30 transform md:translate-x-[-1px] hidden md:block" />
 
           {/* Passos - layout vertical em mobile, horizontal em desktop */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -93,14 +93,14 @@ export default function ProcessoSection() {
                 {/* Card da etapa */}
                 <div className={`relative h-full rounded-xl p-6 transition-all duration-300 ${
                   activeStep === index
-                    ? 'bg-white/10 backdrop-blur-md border border-blue-400/30 shadow-lg shadow-blue-500/20'
+                    ? 'bg-white/10 backdrop-blur-md border border-[#3331c1]/30 shadow-lg shadow-[#3331c1]/20'
                     : 'bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/20'
                 }`}>
                   {/* Indicador na linha (desktop) */}
                   <div className="absolute -left-4 md:-left-1/2 top-6 transform md:translate-x-[-2px] hidden md:block">
                     <div className={`w-3 h-3 rounded-full transition-all duration-300 ${
                       activeStep === index
-                        ? 'bg-blue-400 shadow-lg shadow-blue-400/50 scale-125'
+                        ? 'bg-[#3331c1] shadow-lg shadow-[#3331c1]/50 scale-125'
                         : 'bg-white/40 group-hover:bg-white/60'
                     }`} />
                   </div>
@@ -108,7 +108,7 @@ export default function ProcessoSection() {
                   {/* Número da etapa */}
                   <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 transition-all duration-300 ${
                     activeStep === index
-                      ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white'
+                      ? 'bg-gradient-to-br from-[#3331c1] to-[#3331c1] text-white'
                       : 'bg-white/10 text-white/60'
                   }`}>
                     <span className="text-lg font-bold">{step.number}</span>
@@ -132,7 +132,7 @@ export default function ProcessoSection() {
                     {step.features.map((feature, i) => (
                       <div key={i} className="flex items-center gap-2">
                         <div className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
-                          activeStep === index ? 'bg-blue-400' : 'bg-white/30'
+                          activeStep === index ? 'bg-[#3331c1]' : 'bg-white/30'
                         }`} />
                         <span className={`text-xs transition-colors duration-300 ${
                           activeStep === index ? 'text-gray-300' : 'text-gray-500'
@@ -146,7 +146,7 @@ export default function ProcessoSection() {
                   {/* Indicador ativo */}
                   {activeStep === index && (
                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
-                      <div className="w-4 h-4 bg-blue-400 rotate-45"></div>
+                      <div className="w-4 h-4 bg-[#3331c1] rotate-45"></div>
                     </div>
                   )}
                 </div>
@@ -170,7 +170,7 @@ export default function ProcessoSection() {
                   onClick={() => setActiveStep(index)}
                   className={`w-2 h-2 rounded-full transition-all duration-300 ${
                     activeStep === index
-                      ? 'bg-blue-400 w-6'
+                      ? 'bg-[#3331c1] w-6'
                       : 'bg-white/30 hover:bg-white/50'
                   }`}
                 />
@@ -198,7 +198,7 @@ export default function ProcessoSection() {
                 onClick={() => setActiveStep(index)}
                 className={`w-8 h-1 rounded-full transition-all duration-300 ${
                   activeStep === index
-                    ? 'bg-gradient-to-r from-blue-400 to-blue-300'
+                    ? 'bg-gradient-to-r from-[#3331c1] to-[#3331c1]'
                     : 'bg-white/20 hover:bg-white/30'
                 }`}
               />
@@ -218,7 +218,7 @@ export default function ProcessoSection() {
               </p>
             </div>
             
-            <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
+            <button className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
               <span>Quero meu planejamento</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>

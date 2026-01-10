@@ -1,0 +1,663 @@
+commit d8877ffd80dced1a9868321cc80c7c905a60b1c1
+Author: Manus <manus@manus.im>
+Date:   Sat Jan 10 13:21:58 2026 -0500
+
+    style: update all blue colors to #3331c1 for brand consistency
+
+diff --git a/client/src/components/Footer.tsx b/client/src/components/Footer.tsx
+index 4f87f92..3f25214 100644
+--- a/client/src/components/Footer.tsx
++++ b/client/src/components/Footer.tsx
+@@ -35,22 +35,22 @@ export default function Footer() {
+       <div className="relative overflow-hidden">
+         {/* Elementos decorativos sutis */}
+         <div className="absolute inset-0 opacity-5">
+-          <div className="absolute top-1/4 left-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
++          <div className="absolute top-1/4 left-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
+           <div className="absolute bottom-1/4 right-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
+         </div>
+ 
+         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-16 lg:py-20">
+           <div className="text-center">
+             <div className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
+-              <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+-              <span className="text-sm font-medium text-blue-100">
++              <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
++              <span className="text-sm font-medium text-[#3331c1]">
+                 Última Oportunidade
+               </span>
+             </div>
+             
+             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 max-w-3xl mx-auto">
+               Transforme Seu Negócio com{' '}
+-              <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
++              <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
+                 Planejamento Estratégico
+               </span>
+             </h2>
+@@ -64,22 +64,22 @@ export default function Footer() {
+                 href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=Olá! Gostaria de mais informações sobre o planejamento estratégico`}
+                 target="_blank"
+                 rel="noopener noreferrer"
+-                className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
++                className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-[#3331c1]/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
+               >
+                 <span className="relative z-10">Quero meu planejamento</span>
+-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
++                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#3331c1] to-[#3331c1] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+               </a>
+               
+               <div className="flex items-center gap-3 text-gray-300">
+                 <div className="flex items-center gap-2">
+-                  <Phone className="w-5 h-5 text-blue-400" />
++                  <Phone className="w-5 h-5 text-[#3331c1]" />
+                   <span className="font-medium">Dúvidas?</span>
+                 </div>
+                 <a 
+                   href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
+                   target="_blank"
+                   rel="noopener noreferrer"
+-                  className="text-white hover:text-blue-300 transition-colors font-semibold"
++                  className="text-white hover:text-[#3331c1] transition-colors font-semibold"
+                 >
+                   {formattedPhone}
+                 </a>
+@@ -127,10 +127,10 @@ export default function Footer() {
+                     href="https://www.linkedin.com/company/bxassessoria/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+-                    className="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-blue-600/20 hover:border-blue-500/30 border border-gray-800 transition-all duration-300"
++                    className="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-[#3331c1]/20 hover:border-[#3331c1]/30 border border-gray-800 transition-all duration-300"
+                     aria-label="LinkedIn"
+                   >
+-                    <Linkedin className="w-5 h-5 text-gray-400 hover:text-blue-400 transition-colors" />
++                    <Linkedin className="w-5 h-5 text-gray-400 hover:text-[#3331c1] transition-colors" />
+                   </a>
+                   <a
+                     href="https://www.instagram.com/bxassessoria/"
+@@ -152,7 +152,7 @@ export default function Footer() {
+                     href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
+                     target="_blank"
+                     rel="noopener noreferrer"
+-                    className="text-white hover:text-blue-300 transition-colors font-medium inline-flex items-center gap-2"
++                    className="text-white hover:text-[#3331c1] transition-colors font-medium inline-flex items-center gap-2"
+                   >
+                     <Phone className="w-4 h-4" />
+                     {formattedPhone}
+diff --git a/client/src/components/Header.tsx b/client/src/components/Header.tsx
+index f342448..eab6c85 100644
+--- a/client/src/components/Header.tsx
++++ b/client/src/components/Header.tsx
+@@ -100,7 +100,7 @@ export default function Header() {
+               <button
+                 key={link.label}
+                 onClick={() => scrollToSection(link.href)}
+-                className="px-5 py-2.5 text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm rounded-lg hover:bg-gray-50 focus:outline-none"
++                className="px-5 py-2.5 text-gray-700 hover:text-[#3331c1] transition-colors font-medium text-sm rounded-lg hover:bg-gray-50 focus:outline-none"
+               >
+                 {link.label}
+               </button>
+@@ -111,7 +111,7 @@ export default function Header() {
+           <div className="hidden lg:flex items-center">
+             <button 
+               onClick={handleCtaClick}
+-              className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
++              className="px-6 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
+             >
+                 Quero meu planejamento
+               </button>
+@@ -139,7 +139,7 @@ export default function Header() {
+                 <button
+                   key={link.label}
+                   onClick={() => scrollToSection(link.href)}
+-                  className="block w-full text-left px-4 py-4 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-50 font-medium transition-colors border-b border-gray-100 last:border-0 focus:outline-none"
++                  className="block w-full text-left px-4 py-4 rounded-lg text-gray-700 hover:text-[#3331c1] hover:bg-gray-50 font-medium transition-colors border-b border-gray-100 last:border-0 focus:outline-none"
+                 >
+                   {link.label}
+                 </button>
+@@ -151,7 +151,7 @@ export default function Header() {
+                     handleCtaClick();
+                     setIsOpen(false);
+                   }}
+-                  className="block w-full px-4 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-colors shadow-md focus:outline-none"
++                  className="block w-full px-4 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-colors shadow-md focus:outline-none"
+                 >
+                   Quero meu planejamento
+                 </button>
+diff --git a/client/src/components/HeroSection.tsx b/client/src/components/HeroSection.tsx
+index 2ec844e..89ea835 100644
+--- a/client/src/components/HeroSection.tsx
++++ b/client/src/components/HeroSection.tsx
+@@ -33,7 +33,7 @@ export default function HeroSection() {
+         {Array.from({ length: 15 }).map((_, i) => (
+           <div
+             key={i}
+-            className="absolute h-[1px] bg-gradient-to-r from-transparent via-blue-400/30 to-transparent"
++            className="absolute h-[1px] bg-gradient-to-r from-transparent via-[#3331c1]/30 to-transparent"
+             style={{
+               top: `${i * 7}%`,
+               width: `${20 + i * 2}%`,
+@@ -51,8 +51,8 @@ export default function HeroSection() {
+           <div className="space-y-8 animate-fade-in-up">
+             <div className="space-y-6">
+               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-full backdrop-blur-sm">
+-                <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+-                <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
++                <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
++                <span className="text-sm font-medium text-[#3331c1]" style={{ fontFamily: 'Avenir, sans-serif' }}>
+                   Planejamento Estratégico Comercial
+                 </span>
+               </div>
+@@ -80,7 +80,7 @@ export default function HeroSection() {
+                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 600 }}
+               >
+                 <span className="relative z-10">Quero meu planejamento</span>
+-                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#60a5fa]/30 via-white/20 to-[#60a5fa]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
++                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#3331c1]/30 via-white/20 to-[#3331c1]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
+               </button>
+             </div>
+           </div>
+diff --git a/client/src/components/MetodologiaSection.tsx b/client/src/components/MetodologiaSection.tsx
+index f08de68..72ed626 100644
+--- a/client/src/components/MetodologiaSection.tsx
++++ b/client/src/components/MetodologiaSection.tsx
+@@ -62,13 +62,13 @@ export default function MetodologiaSection() {
+             >
+               <defs>
+                 <linearGradient id="exponentialGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+-                  <stop offset="0%" stopColor="#3b82f6" />
+-                  <stop offset="100%" stopColor="#3b82f6" />
++                  <stop offset="0%" stopColor="#3331c1" />
++                  <stop offset="100%" stopColor="#3331c1" />
+                 </linearGradient>
+                 
+                 <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+-                  <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.2" />
+-                  <stop offset="100%" stopColor="#3b82f6" stopOpacity="0" />
++                  <stop offset="0%" stopColor="#3331c1" stopOpacity="0.2" />
++                  <stop offset="100%" stopColor="#3331c1" stopOpacity="0" />
+                 </linearGradient>
+               </defs>
+ 
+@@ -127,7 +127,7 @@ export default function MetodologiaSection() {
+                     cy={point.y}
+                     r="5"
+                     fill="white"
+-                    stroke="#3b82f6"
++                    stroke="#3331c1"
+                     strokeWidth="2"
+                   />
+                   <text
+@@ -154,8 +154,8 @@ export default function MetodologiaSection() {
+                   key={index}
+                   className="bg-white rounded-xl border border-gray-200 p-5 hover:border-gray-300 transition-colors h-full flex flex-col"
+                 >
+-                  <div className="mb-4 inline-flex p-3 bg-blue-50 rounded-lg">
+-                    <Icon className="w-5 h-5 text-blue-600" />
++                  <div className="mb-4 inline-flex p-3 bg-[#3331c1] rounded-lg">
++                    <Icon className="w-5 h-5 text-[#3331c1]" />
+                   </div>
+ 
+                   <h3 className="text-lg font-bold text-gray-900 mb-3">
+@@ -173,7 +173,7 @@ export default function MetodologiaSection() {
+ 
+         {/* CTA abaixo dos cards */}
+         <div className="mt-12 lg:mt-16 text-center">
+-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
++          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-gradient-to-r from-[#3331c1] to-indigo-50 rounded-2xl border border-[#3331c1]">
+             <div className="text-left">
+               <h4 className="font-bold text-gray-900 text-lg mb-1">
+                 Pronto para crescimento exponencial?
+@@ -182,7 +182,7 @@ export default function MetodologiaSection() {
+                 Agende uma consultoria gratuita e veja como aplicar esta metodologia no seu negócio
+               </p>
+             </div>
+-            <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
++            <button className="px-6 py-3 bg-[#3331c1] hover:bg-[#3331c1] text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
+               Quero meu planejamento
+             </button>
+           </div>
+diff --git a/client/src/components/PrecoBeneficiosSection.tsx b/client/src/components/PrecoBeneficiosSection.tsx
+index 836272c..6549763 100644
+--- a/client/src/components/PrecoBeneficiosSection.tsx
++++ b/client/src/components/PrecoBeneficiosSection.tsx
+@@ -42,7 +42,7 @@ export default function PrecoBeneficiosSection() {
+       
+       {/* Elementos decorativos */}
+       <div className="absolute inset-0 opacity-10">
+-        <div className="absolute top-20 right-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
++        <div className="absolute top-20 right-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
+         <div className="absolute bottom-20 left-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
+       </div>
+ 
+@@ -50,15 +50,15 @@ export default function PrecoBeneficiosSection() {
+         {/* Título da seção */}
+         <div className="text-center mb-12 lg:mb-16">
+           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
+-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+-            <span className="text-sm font-medium text-blue-100">
++            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
++            <span className="text-sm font-medium text-[#3331c1]">
+               Investimento Único
+             </span>
+           </div>
+           
+           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+             Planejamento Estratégico{' '}
+-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
++            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
+               Comercial
+             </span>
+           </h2>
+@@ -72,11 +72,11 @@ export default function PrecoBeneficiosSection() {
+         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-16 lg:mb-20">
+           {/* Card de preço único */}
+           <div className="relative group">
+-            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000" />
++            <div className="absolute -inset-0.5 bg-gradient-to-r from-[#3331c1] to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000" />
+             <div className="relative bg-gradient-to-br from-gray-900 to-gray-950 rounded-2xl border border-white/10 p-8 lg:p-10">
+               {/* Badge exclusivo */}
+               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+-                <div className="px-4 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm font-semibold rounded-full shadow-lg">
++                <div className="px-4 py-1.5 bg-gradient-to-r from-[#3331c1] to-purple-500 text-white text-sm font-semibold rounded-full shadow-lg">
+                   Produto Exclusivo
+                 </div>
+               </div>
+@@ -109,8 +109,8 @@ export default function PrecoBeneficiosSection() {
+                 {features.map((feature, index) => (
+                   <div key={index} className="flex items-center justify-between py-3 border-b border-white/5 last:border-0">
+                     <div className="flex items-center gap-3">
+-                      <div className="p-2 bg-blue-500/10 rounded-lg">
+-                        <feature.icon className="w-4 h-4 text-blue-400" />
++                      <div className="p-2 bg-[#3331c1]/10 rounded-lg">
++                        <feature.icon className="w-4 h-4 text-[#3331c1]" />
+                       </div>
+                       <span className="text-gray-300">{feature.label}</span>
+                     </div>
+@@ -121,7 +121,7 @@ export default function PrecoBeneficiosSection() {
+ 
+               {/* CTA principal */}
+               <div className="space-y-4">
+-                <button className="w-full py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 active:scale-95 text-lg">
++                <button className="w-full py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 active:scale-95 text-lg">
+                   Quero meu planejamento
+                 </button>
+                 
+@@ -158,8 +158,8 @@ export default function PrecoBeneficiosSection() {
+                     key={index}
+                     className="group flex items-start gap-4 p-5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300"
+                   >
+-                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-600/20 flex items-center justify-center group-hover:from-blue-500/30 group-hover:to-blue-600/30 transition-all">
+-                      <benefit.icon className="w-5 h-5 text-blue-400" />
++                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-[#3331c1]/20 to-[#3331c1]/20 flex items-center justify-center group-hover:from-[#3331c1]/30 group-hover:to-[#3331c1]/30 transition-all">
++                      <benefit.icon className="w-5 h-5 text-[#3331c1]" />
+                     </div>
+                     <div className="flex-1">
+                       <span className="text-gray-300 leading-relaxed">
+@@ -179,8 +179,8 @@ export default function PrecoBeneficiosSection() {
+               
+               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                 <div className="flex items-center gap-3">
+-                  <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
+-                    <Zap className="w-4 h-4 text-blue-400" />
++                  <div className="w-8 h-8 rounded-lg bg-[#3331c1]/10 flex items-center justify-center">
++                    <Zap className="w-4 h-4 text-[#3331c1]" />
+                   </div>
+                   <div>
+                     <p className="font-medium text-white">Lorem Ipsum</p>
+@@ -205,8 +205,8 @@ export default function PrecoBeneficiosSection() {
+         {/* CTA final */}
+         <div className="mt-16 lg:mt-20 text-center">
+           <div className="inline-flex flex-col items-center gap-6 p-8 lg:p-10 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm rounded-2xl border border-white/10 max-w-3xl mx-auto">
+-            <div className="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl">
+-              <Star className="w-8 h-8 text-blue-400" />
++            <div className="p-3 bg-gradient-to-br from-[#3331c1]/20 to-purple-500/20 rounded-xl">
++              <Star className="w-8 h-8 text-[#3331c1]" />
+             </div>
+             
+             <h3 className="text-2xl lg:text-3xl font-bold text-white">
+@@ -228,7 +228,7 @@ export default function PrecoBeneficiosSection() {
+                 </div>
+               </div>
+               
+-              <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 whitespace-nowrap">
++              <button className="px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 whitespace-nowrap">
+                 Quero meu planejamento
+               </button>
+             </div>
+diff --git a/client/src/components/ProcessoSection.tsx b/client/src/components/ProcessoSection.tsx
+index 5ac431e..d5ff217 100644
+--- a/client/src/components/ProcessoSection.tsx
++++ b/client/src/components/ProcessoSection.tsx
+@@ -46,7 +46,7 @@ export default function ProcessoSection() {
+       
+       {/* Elementos decorativos */}
+       <div className="absolute inset-0 opacity-10">
+-        <div className="absolute top-1/4 left-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl" />
++        <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#3331c1]/20 rounded-full blur-3xl" />
+         <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+       </div>
+ 
+@@ -54,15 +54,15 @@ export default function ProcessoSection() {
+         {/* Título da seção */}
+         <div className="text-center mb-12 lg:mb-16 animate-fade-in-up">
+           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
+-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+-            <span className="text-sm font-medium text-blue-100">
++            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
++            <span className="text-sm font-medium text-[#3331c1]">
+               Processo de Trabalho
+             </span>
+           </div>
+           
+           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+             Como vamos construir sua{' '}
+-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
++            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
+               Máquina de Vendas
+             </span>
+           </h2>
+@@ -75,7 +75,7 @@ export default function ProcessoSection() {
+         {/* Timeline interativa */}
+         <div className="relative">
+           {/* Linha de conexão */}
+-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500/30 via-blue-400/50 to-blue-300/30 transform md:translate-x-[-1px] hidden md:block" />
++          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#3331c1]/30 via-[#3331c1]/50 to-[#3331c1]/30 transform md:translate-x-[-1px] hidden md:block" />
+ 
+           {/* Passos - layout vertical em mobile, horizontal em desktop */}
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+@@ -93,14 +93,14 @@ export default function ProcessoSection() {
+                 {/* Card da etapa */}
+                 <div className={`relative h-full rounded-xl p-6 transition-all duration-300 ${
+                   activeStep === index
+-                    ? 'bg-white/10 backdrop-blur-md border border-blue-400/30 shadow-lg shadow-blue-500/20'
++                    ? 'bg-white/10 backdrop-blur-md border border-[#3331c1]/30 shadow-lg shadow-[#3331c1]/20'
+                     : 'bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/20'
+                 }`}>
+                   {/* Indicador na linha (desktop) */}
+                   <div className="absolute -left-4 md:-left-1/2 top-6 transform md:translate-x-[-2px] hidden md:block">
+                     <div className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                       activeStep === index
+-                        ? 'bg-blue-400 shadow-lg shadow-blue-400/50 scale-125'
++                        ? 'bg-[#3331c1] shadow-lg shadow-[#3331c1]/50 scale-125'
+                         : 'bg-white/40 group-hover:bg-white/60'
+                     }`} />
+                   </div>
+@@ -108,7 +108,7 @@ export default function ProcessoSection() {
+                   {/* Número da etapa */}
+                   <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 transition-all duration-300 ${
+                     activeStep === index
+-                      ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white'
++                      ? 'bg-gradient-to-br from-[#3331c1] to-[#3331c1] text-white'
+                       : 'bg-white/10 text-white/60'
+                   }`}>
+                     <span className="text-lg font-bold">{step.number}</span>
+@@ -132,7 +132,7 @@ export default function ProcessoSection() {
+                     {step.features.map((feature, i) => (
+                       <div key={i} className="flex items-center gap-2">
+                         <div className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+-                          activeStep === index ? 'bg-blue-400' : 'bg-white/30'
++                          activeStep === index ? 'bg-[#3331c1]' : 'bg-white/30'
+                         }`} />
+                         <span className={`text-xs transition-colors duration-300 ${
+                           activeStep === index ? 'text-gray-300' : 'text-gray-500'
+@@ -146,7 +146,7 @@ export default function ProcessoSection() {
+                   {/* Indicador ativo */}
+                   {activeStep === index && (
+                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
+-                      <div className="w-4 h-4 bg-blue-400 rotate-45"></div>
++                      <div className="w-4 h-4 bg-[#3331c1] rotate-45"></div>
+                     </div>
+                   )}
+                 </div>
+@@ -170,7 +170,7 @@ export default function ProcessoSection() {
+                   onClick={() => setActiveStep(index)}
+                   className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                     activeStep === index
+-                      ? 'bg-blue-400 w-6'
++                      ? 'bg-[#3331c1] w-6'
+                       : 'bg-white/30 hover:bg-white/50'
+                   }`}
+                 />
+@@ -198,7 +198,7 @@ export default function ProcessoSection() {
+                 onClick={() => setActiveStep(index)}
+                 className={`w-8 h-1 rounded-full transition-all duration-300 ${
+                   activeStep === index
+-                    ? 'bg-gradient-to-r from-blue-400 to-blue-300'
++                    ? 'bg-gradient-to-r from-[#3331c1] to-[#3331c1]'
+                     : 'bg-white/20 hover:bg-white/30'
+                 }`}
+               />
+@@ -218,7 +218,7 @@ export default function ProcessoSection() {
+               </p>
+             </div>
+             
+-            <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
++            <button className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
+               <span>Quero meu planejamento</span>
+               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+             </button>
+diff --git a/client/src/components/ProvasSociaisSection.tsx b/client/src/components/ProvasSociaisSection.tsx
+index 8eab185..d2ea70e 100644
+--- a/client/src/components/ProvasSociaisSection.tsx
++++ b/client/src/components/ProvasSociaisSection.tsx
+@@ -53,12 +53,12 @@ export default function ProvasSociaisSection() {
+   ];
+ 
+   const logos = [
+-    { name: 'Lorem Corp', initials: 'LC', color: 'from-blue-500/20 to-blue-600/10' },
++    { name: 'Lorem Corp', initials: 'LC', color: 'from-[#3331c1]/20 to-[#3331c1]/10' },
+     { name: 'Ipsum Group', initials: 'IG', color: 'from-purple-500/20 to-purple-600/10' },
+     { name: 'Dolor Solutions', initials: 'DS', color: 'from-cyan-500/20 to-cyan-600/10' },
+     { name: 'Sit Amet Tech', initials: 'SAT', color: 'from-indigo-500/20 to-indigo-600/10' },
+     { name: 'Consectetur Ltd', initials: 'CL', color: 'from-violet-500/20 to-violet-600/10' },
+-    { name: 'Adipiscing Inc', initials: 'AI', color: 'from-blue-400/20 to-blue-500/10' },
++    { name: 'Adipiscing Inc', initials: 'AI', color: 'from-[#3331c1]/20 to-[#3331c1]/10' },
+   ];
+ 
+   const stats = [
+@@ -98,7 +98,7 @@ export default function ProvasSociaisSection() {
+       
+       {/* Elementos decorativos */}
+       <div className="absolute inset-0 opacity-10">
+-        <div className="absolute top-20 left-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
++        <div className="absolute top-20 left-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
+         <div className="absolute bottom-20 right-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
+       </div>
+ 
+@@ -106,15 +106,15 @@ export default function ProvasSociaisSection() {
+         {/* Título da seção */}
+         <div className="text-center mb-12 lg:mb-16">
+           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
+-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+-            <span className="text-sm font-medium text-blue-100">
++            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
++            <span className="text-sm font-medium text-[#3331c1]">
+               Provas Sociais
+             </span>
+           </div>
+           
+           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+             Quem já transformou sua{' '}
+-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
++            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
+               Realidade Comercial
+             </span>
+           </h2>
+@@ -133,7 +133,7 @@ export default function ProvasSociaisSection() {
+             {logos.map((logo, index) => (
+               <div
+                 key={index}
+-                className={`group relative h-24 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/10`}
++                className={`group relative h-24 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#3331c1]/10`}
+                 style={{ animationDelay: `${index * 100}ms` }}
+               >
+                 <div className={`absolute inset-0 rounded-xl bg-gradient-to-br ${logo.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
+@@ -153,18 +153,18 @@ export default function ProvasSociaisSection() {
+         {/* Carrossel de depoimentos */}
+         <div className="mb-16 lg:mb-20">
+           <div className="relative max-w-4xl mx-auto">
+-            <Quote className="absolute -top-6 -left-6 w-12 h-12 text-blue-500/20 rotate-180" />
+-            <Quote className="absolute -bottom-6 -right-6 w-12 h-12 text-blue-500/20" />
++            <Quote className="absolute -top-6 -left-6 w-12 h-12 text-[#3331c1]/20 rotate-180" />
++            <Quote className="absolute -bottom-6 -right-6 w-12 h-12 text-[#3331c1]/20" />
+             
+             <div className="relative overflow-hidden rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 p-8 lg:p-12">
+               <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
+                 {/* Informações do cliente */}
+                 <div className="flex-shrink-0">
+                   <div className="relative">
+-                    <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl bg-gradient-to-br from-blue-500/30 to-purple-500/30 flex items-center justify-center text-3xl">
++                    <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl bg-gradient-to-br from-[#3331c1]/30 to-purple-500/30 flex items-center justify-center text-3xl">
+                       {testimonials[activeIndex].image}
+                     </div>
+-                    <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
++                    <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-gradient-to-br from-[#3331c1] to-[#3331c1] flex items-center justify-center">
+                       <span className="text-sm font-bold text-white">✓</span>
+                     </div>
+                   </div>
+@@ -173,7 +173,7 @@ export default function ProvasSociaisSection() {
+                     <h4 className="text-xl font-bold text-white">
+                       {testimonials[activeIndex].name}
+                     </h4>
+-                    <p className="text-sm text-blue-300">
++                    <p className="text-sm text-[#3331c1]">
+                       {testimonials[activeIndex].role}
+                     </p>
+                     <p className="text-xs text-gray-400">
+@@ -211,7 +211,7 @@ export default function ProvasSociaisSection() {
+                           }}
+                           className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                             activeIndex === index
+-                              ? 'w-8 bg-gradient-to-r from-blue-400 to-blue-300'
++                              ? 'w-8 bg-gradient-to-r from-[#3331c1] to-[#3331c1]'
+                               : 'bg-white/30 hover:bg-white/50'
+                           }`}
+                         />
+@@ -247,13 +247,13 @@ export default function ProvasSociaisSection() {
+               className="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:scale-105"
+               style={{ animationDelay: `${index * 150}ms` }}
+             >
+-              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-3xl" />
++              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[#3331c1]/10 to-transparent rounded-bl-3xl" />
+               
+               <div className="relative">
+                 <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
+                   {stat.value}
+                 </div>
+-                <h4 className="text-lg font-semibold text-blue-300 mb-1">
++                <h4 className="text-lg font-semibold text-[#3331c1] mb-1">
+                   {stat.label}
+                 </h4>
+                 <p className="text-sm text-gray-400">
+@@ -264,7 +264,7 @@ export default function ProvasSociaisSection() {
+               {/* Barra de progresso decorativa */}
+               <div className="mt-4 h-1 w-full bg-white/10 rounded-full overflow-hidden">
+                 <div 
+-                  className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full transition-all duration-1000 ease-out"
++                  className="h-full bg-gradient-to-r from-[#3331c1] to-[#3331c1] rounded-full transition-all duration-1000 ease-out"
+                   style={{ 
+                     width: index === 0 ? '100%' : 
+                            index === 1 ? '98%' : 
+@@ -285,7 +285,7 @@ export default function ProvasSociaisSection() {
+             <p className="text-gray-300 max-w-lg">
+               Junte-se ao grupo de empresários que decidiram sair do amadorismo e profissionalizar sua escala comercial.
+             </p>
+-            <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2">
++            <button className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2">
+               <span>Quero meu planejamento</span>
+               <svg 
+                 className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
+diff --git a/client/src/index.css b/client/src/index.css
+index 3f8f240..79cebfa 100644
+--- a/client/src/index.css
++++ b/client/src/index.css
+@@ -47,15 +47,15 @@
+   /* Tipografia: Poppins (display) + Inter (body) */
+   /* Paleta: Branco, Cinza Escuro, Azul Profundo */
+   
+-  --primary: #1e40af; /* Azul Profundo para CTAs */
++  --primary: #3331c1; /* Azul BX para CTAs */
+   --primary-foreground: #ffffff;
+-  --sidebar-primary: #1e40af;
++  --sidebar-primary: #3331c1;
+   --sidebar-primary-foreground: #ffffff;
+-  --chart-1: #1e40af;
+-  --chart-2: #1e3a8a;
+-  --chart-3: #1e40af;
+-  --chart-4: #1e3a8a;
+-  --chart-5: #172554;
++  --chart-1: #3331c1;
++  --chart-2: #2a28a0;
++  --chart-3: #3331c1;
++  --chart-4: #2a28a0;
++  --chart-5: #1e1c70;
+   --radius: 0.5rem;
+   --background: #ffffff;
+   --foreground: #1f2937;
+@@ -67,25 +67,25 @@
+   --secondary-foreground: #374151;
+   --muted: #e5e7eb;
+   --muted-foreground: #6b7280;
+-  --accent: #1e40af;
++  --accent: #3331c1;
+   --accent-foreground: #ffffff;
+   --destructive: #dc2626;
+   --destructive-foreground: #ffffff;
+   --border: #e5e7eb;
+   --input: #f3f4f6;
+-  --ring: #1e40af;
++  --ring: #3331c1;
+   --sidebar: #ffffff;
+   --sidebar-foreground: #1f2937;
+   --sidebar-accent: #f3f4f6;
+-  --sidebar-accent-foreground: #1e40af;
++  --sidebar-accent-foreground: #3331c1;
+   --sidebar-border: #e5e7eb;
+-  --sidebar-ring: #1e40af;
++  --sidebar-ring: #3331c1;
+ }
+ 
+ .dark {
+-  --primary: #3b82f6;
++  --primary: #3331c1;
+   --primary-foreground: #ffffff;
+-  --sidebar-primary: #3b82f6;
++  --sidebar-primary: #3331c1;
+   --sidebar-primary-foreground: #ffffff;
+   --background: #0f172a;
+   --foreground: #f1f5f9;
+@@ -97,24 +97,24 @@
+   --secondary-foreground: #cbd5e1;
+   --muted: #334155;
+   --muted-foreground: #94a3b8;
+-  --accent: #3b82f6;
++  --accent: #3331c1;
+   --accent-foreground: #ffffff;
+   --destructive: #ef4444;
+   --destructive-foreground: #ffffff;
+   --border: #334155;
+   --input: #1e293b;
+-  --ring: #3b82f6;
+-  --chart-1: #3b82f6;
+-  --chart-2: #1e40af;
+-  --chart-3: #3b82f6;
+-  --chart-4: #1e40af;
+-  --chart-5: #172554;
++  --ring: #3331c1;
++  --chart-1: #3331c1;
++  --chart-2: #2a28a0;
++  --chart-3: #3331c1;
++  --chart-4: #2a28a0;
++  --chart-5: #1e1c70;
+   --sidebar: #1e293b;
+   --sidebar-foreground: #f1f5f9;
+   --sidebar-accent: #334155;
+-  --sidebar-accent-foreground: #3b82f6;
++  --sidebar-accent-foreground: #3331c1;
+   --sidebar-border: #334155;
+-  --sidebar-ring: #3b82f6;
++  --sidebar-ring: #3331c1;
+ }
+ 
+ @layer base {

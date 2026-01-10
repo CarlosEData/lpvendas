@@ -53,12 +53,12 @@ export default function ProvasSociaisSection() {
   ];
 
   const logos = [
-    { name: 'Lorem Corp', initials: 'LC', color: 'from-blue-500/20 to-blue-600/10' },
+    { name: 'Lorem Corp', initials: 'LC', color: 'from-[#3331c1]/20 to-[#3331c1]/10' },
     { name: 'Ipsum Group', initials: 'IG', color: 'from-purple-500/20 to-purple-600/10' },
     { name: 'Dolor Solutions', initials: 'DS', color: 'from-cyan-500/20 to-cyan-600/10' },
-    { name: 'Sit Amet Tech', initials: 'SAT', color: 'from-indigo-500/20 to-indigo-600/10' },
+    { name: 'Sit Amet Tech', initials: 'SAT', color: 'from-[#3331c1]/20 to-[#3331c1]/10' },
     { name: 'Consectetur Ltd', initials: 'CL', color: 'from-violet-500/20 to-violet-600/10' },
-    { name: 'Adipiscing Inc', initials: 'AI', color: 'from-blue-400/20 to-blue-500/10' },
+    { name: 'Adipiscing Inc', initials: 'AI', color: 'from-[#3331c1]/20 to-[#3331c1]/10' },
   ];
 
   const stats = [
@@ -98,7 +98,7 @@ export default function ProvasSociaisSection() {
       
       {/* Elementos decorativos */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
       </div>
 
@@ -106,15 +106,15 @@ export default function ProvasSociaisSection() {
         {/* Título da seção */}
         <div className="text-center mb-12 lg:mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span className="text-sm font-medium text-blue-100">
+            <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
+            <span className="text-sm font-medium text-[#3331c1]">
               Provas Sociais
             </span>
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Quem já transformou sua{' '}
-            <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
               Realidade Comercial
             </span>
           </h2>
@@ -133,7 +133,7 @@ export default function ProvasSociaisSection() {
             {logos.map((logo, index) => (
               <div
                 key={index}
-                className={`group relative h-24 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/10`}
+                className={`group relative h-24 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#3331c1]/10`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className={`absolute inset-0 rounded-xl bg-gradient-to-br ${logo.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
@@ -153,18 +153,18 @@ export default function ProvasSociaisSection() {
         {/* Carrossel de depoimentos */}
         <div className="mb-16 lg:mb-20">
           <div className="relative max-w-4xl mx-auto">
-            <Quote className="absolute -top-6 -left-6 w-12 h-12 text-blue-500/20 rotate-180" />
-            <Quote className="absolute -bottom-6 -right-6 w-12 h-12 text-blue-500/20" />
+            <Quote className="absolute -top-6 -left-6 w-12 h-12 text-[#3331c1]/20 rotate-180" />
+            <Quote className="absolute -bottom-6 -right-6 w-12 h-12 text-[#3331c1]/20" />
             
             <div className="relative overflow-hidden rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 p-8 lg:p-12">
               <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
                 {/* Informações do cliente */}
                 <div className="flex-shrink-0">
                   <div className="relative">
-                    <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl bg-gradient-to-br from-blue-500/30 to-purple-500/30 flex items-center justify-center text-3xl">
+                    <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl bg-gradient-to-br from-[#3331c1]/30 to-purple-500/30 flex items-center justify-center text-3xl">
                       {testimonials[activeIndex].image}
                     </div>
-                    <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                    <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-gradient-to-br from-[#3331c1] to-[#3331c1] flex items-center justify-center">
                       <span className="text-sm font-bold text-white">✓</span>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ export default function ProvasSociaisSection() {
                     <h4 className="text-xl font-bold text-white">
                       {testimonials[activeIndex].name}
                     </h4>
-                    <p className="text-sm text-blue-300">
+                    <p className="text-sm text-[#3331c1]">
                       {testimonials[activeIndex].role}
                     </p>
                     <p className="text-xs text-gray-400">
@@ -211,7 +211,7 @@ export default function ProvasSociaisSection() {
                           }}
                           className={`w-2 h-2 rounded-full transition-all duration-300 ${
                             activeIndex === index
-                              ? 'w-8 bg-gradient-to-r from-blue-400 to-blue-300'
+                              ? 'w-8 bg-gradient-to-r from-[#3331c1] to-[#3331c1]'
                               : 'bg-white/30 hover:bg-white/50'
                           }`}
                         />
@@ -247,13 +247,13 @@ export default function ProvasSociaisSection() {
               className="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:scale-105"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-3xl" />
+              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[#3331c1]/10 to-transparent rounded-bl-3xl" />
               
               <div className="relative">
                 <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
                   {stat.value}
                 </div>
-                <h4 className="text-lg font-semibold text-blue-300 mb-1">
+                <h4 className="text-lg font-semibold text-[#3331c1] mb-1">
                   {stat.label}
                 </h4>
                 <p className="text-sm text-gray-400">
@@ -264,7 +264,7 @@ export default function ProvasSociaisSection() {
               {/* Barra de progresso decorativa */}
               <div className="mt-4 h-1 w-full bg-white/10 rounded-full overflow-hidden">
                 <div 
-                  className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full transition-all duration-1000 ease-out"
+                  className="h-full bg-gradient-to-r from-[#3331c1] to-[#3331c1] rounded-full transition-all duration-1000 ease-out"
                   style={{ 
                     width: index === 0 ? '100%' : 
                            index === 1 ? '98%' : 
@@ -285,7 +285,7 @@ export default function ProvasSociaisSection() {
             <p className="text-gray-300 max-w-lg">
               Junte-se ao grupo de empresários que decidiram sair do amadorismo e profissionalizar sua escala comercial.
             </p>
-            <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2">
+            <button className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2">
               <span>Quero meu planejamento</span>
               <svg 
                 className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 

@@ -35,22 +35,22 @@ export default function Footer() {
       <div className="relative overflow-hidden">
         {/* Elementos decorativos sutis */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-1/4 left-10 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
+          <div className="absolute top-1/4 left-10 w-64 h-64 bg-[#3331c1]/20 rounded-full blur-3xl" />
           <div className="absolute bottom-1/4 right-10 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
         </div>
 
         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-16 lg:py-20">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full">
-              <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-              <span className="text-sm font-medium text-blue-100">
+              <span className="w-2 h-2 rounded-full bg-[#3331c1] animate-pulse"></span>
+              <span className="text-sm font-medium text-[#3331c1]">
                 Última Oportunidade
               </span>
             </div>
             
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 max-w-3xl mx-auto">
               Transforme Seu Negócio com{' '}
-              <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
                 Planejamento Estratégico
               </span>
             </h2>
@@ -64,22 +64,22 @@ export default function Footer() {
                 href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=Olá! Gostaria de mais informações sobre o planejamento estratégico`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
+                className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-[#3331c1]/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
               >
                 <span className="relative z-10">Quero meu planejamento</span>
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#3331c1] to-[#3331c1] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
               
               <div className="flex items-center gap-3 text-gray-300">
                 <div className="flex items-center gap-2">
-                  <Phone className="w-5 h-5 text-blue-400" />
+                  <Phone className="w-5 h-5 text-[#3331c1]" />
                   <span className="font-medium">Dúvidas?</span>
                 </div>
                 <a 
                   href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-blue-300 transition-colors font-semibold"
+                  className="text-white hover:text-[#3331c1] transition-colors font-semibold"
                 >
                   {formattedPhone}
                 </a>
@@ -127,10 +127,10 @@ export default function Footer() {
                     href="https://www.linkedin.com/company/bxassessoria/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-blue-600/20 hover:border-blue-500/30 border border-gray-800 transition-all duration-300"
+                    className="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-[#3331c1]/20 hover:border-[#3331c1]/30 border border-gray-800 transition-all duration-300"
                     aria-label="LinkedIn"
                   >
-                    <Linkedin className="w-5 h-5 text-gray-400 hover:text-blue-400 transition-colors" />
+                    <Linkedin className="w-5 h-5 text-gray-400 hover:text-[#3331c1] transition-colors" />
                   </a>
                   <a
                     href="https://www.instagram.com/bxassessoria/"
@@ -152,7 +152,7 @@ export default function Footer() {
                     href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:text-blue-300 transition-colors font-medium inline-flex items-center gap-2"
+                    className="text-white hover:text-[#3331c1] transition-colors font-medium inline-flex items-center gap-2"
                   >
                     <Phone className="w-4 h-4" />
                     {formattedPhone}

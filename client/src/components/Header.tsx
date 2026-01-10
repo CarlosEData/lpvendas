@@ -100,7 +100,7 @@ export default function Header() {
               <button
                 key={link.label}
                 onClick={() => scrollToSection(link.href)}
-                className="px-5 py-2.5 text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm rounded-lg hover:bg-gray-50 focus:outline-none"
+                className="px-5 py-2.5 text-gray-700 hover:text-[#3331c1] transition-colors font-medium text-sm rounded-lg hover:bg-gray-50 focus:outline-none"
               >
                 {link.label}
               </button>
@@ -111,7 +111,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center">
             <button 
               onClick={handleCtaClick}
-              className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
+              className="px-6 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
             >
                 Quero meu planejamento
               </button>
@@ -139,7 +139,7 @@ export default function Header() {
                 <button
                   key={link.label}
                   onClick={() => scrollToSection(link.href)}
-                  className="block w-full text-left px-4 py-4 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-50 font-medium transition-colors border-b border-gray-100 last:border-0 focus:outline-none"
+                  className="block w-full text-left px-4 py-4 rounded-lg text-gray-700 hover:text-[#3331c1] hover:bg-gray-50 font-medium transition-colors border-b border-gray-100 last:border-0 focus:outline-none"
                 >
                   {link.label}
                 </button>
@@ -151,7 +151,7 @@ export default function Header() {
                     handleCtaClick();
                     setIsOpen(false);
                   }}
-                  className="block w-full px-4 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-600 transition-colors shadow-md focus:outline-none"
+                  className="block w-full px-4 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-colors shadow-md focus:outline-none"
                 >
                   Quero meu planejamento
                 </button>
