@@ -24,7 +24,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-start overflow-hidden text-white pt-20 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/src/img/bglp.png')" }}
+      style={{ backgroundImage: "url('/img/bglp.png')" }}
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
       {/* Elementos decorativos de fundo */}

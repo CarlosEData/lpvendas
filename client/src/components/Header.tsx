@@ -81,7 +81,7 @@ export default function Header() {
             className="flex items-center focus:outline-none pl-3 lg:pl-0"
           >
             <img
-              src="/src/img/logobx.png"
+              src="/img/logobx.png"
               alt="Logo BX - Planejamento Estratégico"
               className="h-10 w-auto scale-250 hover:opacity-80 transition-opacity"
             />
