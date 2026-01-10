@@ -10,9 +10,6 @@ import { Phone, Linkedin, Instagram, ChevronRight } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const phoneNumber = "+55 11 98902-3070";
-  const formattedPhone = "(11) 98902-3070";
-
   const footerLinks = {
     'Planejamento': [
       { label: 'Metodologia', href: '#metodologia' },
@@ -20,7 +17,6 @@ export default function Footer() {
       { label: 'Benefícios', href: '#precos' },
     ],
     'Empresa': [
-      { label: 'Provas Sociais', href: '#clientes' },
       { label: 'Sobre Nós', href: '#sobre' },
     ],
     'Legal': [
@@ -61,7 +57,7 @@ export default function Footer() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
-                href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=Olá! Gostaria de mais informações sobre o planejamento estratégico`}
+                href="https://chk.eduzz.com/E05X5474WX"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-[#3331c1]/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
@@ -69,8 +65,6 @@ export default function Footer() {
                 <span className="relative z-10">Quero meu planejamento</span>
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#3331c1] to-[#3331c1] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
-              
-
             </div>
           </div>
         </div>

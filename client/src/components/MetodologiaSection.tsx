@@ -154,7 +154,7 @@ export default function MetodologiaSection() {
                   key={index}
                   className="bg-white rounded-xl border border-gray-200 p-5 hover:border-gray-300 transition-colors h-full flex flex-col"
                 >
-                  <div className="mb-4 inline-flex p-3 bg-[#3331c1] rounded-lg">
+                  <div className="mb-4 inline-flex p-3 bg-[#3331c1]/10 rounded-lg">
                     <Icon className="w-5 h-5 text-[#3331c1]" />
                   </div>
 
@@ -192,3 +192,7 @@ export default function MetodologiaSection() {
             </a>
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
