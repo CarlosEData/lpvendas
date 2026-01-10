@@ -1,0 +1,278 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  /* Design: Minimalismo Corporativo Contemporâneo */
+  /* Tipografia: Poppins (display) + Inter (body) */
+  /* Paleta: Branco, Cinza Escuro, Azul Profundo */
+  
+  --primary: #1e40af; /* Azul Profundo para CTAs */
+  --primary-foreground: #ffffff;
+  --sidebar-primary: #1e40af;
+  --sidebar-primary-foreground: #ffffff;
+  --chart-1: #1e40af;
+  --chart-2: #1e3a8a;
+  --chart-3: #1e40af;
+  --chart-4: #1e3a8a;
+  --chart-5: #172554;
+  --radius: 0.5rem;
+  --background: #ffffff;
+  --foreground: #1f2937;
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --popover: #ffffff;
+  --popover-foreground: #1f2937;
+  --secondary: #f3f4f6;
+  --secondary-foreground: #374151;
+  --muted: #e5e7eb;
+  --muted-foreground: #6b7280;
+  --accent: #1e40af;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e5e7eb;
+  --input: #f3f4f6;
+  --ring: #1e40af;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1f2937;
+  --sidebar-accent: #f3f4f6;
+  --sidebar-accent-foreground: #1e40af;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #1e40af;
+}
+
+.dark {
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+  --sidebar-primary: #3b82f6;
+  --sidebar-primary-foreground: #ffffff;
+  --background: #0f172a;
+  --foreground: #f1f5f9;
+  --card: #1e293b;
+  --card-foreground: #f1f5f9;
+  --popover: #1e293b;
+  --popover-foreground: #f1f5f9;
+  --secondary: #1e293b;
+  --secondary-foreground: #cbd5e1;
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+  --accent: #3b82f6;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #334155;
+  --input: #1e293b;
+  --ring: #3b82f6;
+  --chart-1: #3b82f6;
+  --chart-2: #1e40af;
+  --chart-3: #3b82f6;
+  --chart-4: #1e40af;
+  --chart-5: #172554;
+  --sidebar: #1e293b;
+  --sidebar-foreground: #f1f5f9;
+  --sidebar-accent: #334155;
+  --sidebar-accent-foreground: #3b82f6;
+  --sidebar-border: #334155;
+  --sidebar-ring: #3b82f6;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  h1 {
+    @apply text-5xl md:text-6xl font-bold tracking-tight;
+  }
+  
+  h2 {
+    @apply text-4xl md:text-5xl font-bold tracking-tight;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold tracking-tight;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  /**
+   * Custom container utility that centers content and adds responsive padding.
+   * Design: Minimalismo Corporativo - espaçamento estratégico
+   */
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+  
+  /* Componentes customizados para design minimalista */
+  
+  .section-divider {
+    @apply h-px bg-border my-0;
+  }
+  
+  .section-padding {
+    @apply py-20 md:py-32 lg:py-40;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent;
+  }
+  
+  .button-primary {
+    @apply px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg 
+           transition-all duration-300 hover:shadow-lg 
+           active:scale-95;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .button-secondary {
+    @apply px-8 py-4 bg-secondary text-foreground font-semibold rounded-lg 
+           transition-all duration-300 hover:shadow-md 
+           active:scale-95;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-minimal {
+    @apply bg-white border border-border rounded-lg p-6 md:p-8 
+           transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .text-muted-strong {
+    @apply text-muted-foreground font-medium;
+  }
+}
+
+/* Animações customizadas para design minimalista */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
+
+.animate-count-up {
+  animation: countUp 0.8s ease-out;
+}
