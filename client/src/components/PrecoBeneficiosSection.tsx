@@ -23,9 +23,9 @@ export default function PrecoBeneficiosSection() {
   ];
 
   const features = [
-    { icon: Check, label: 'Duração', value: '4 Semanas' },
-    { icon: Check, label: 'Entregável', value: 'PDF + Dashboard' },
-    { icon: Check, label: 'Reuniões', value: '4 Encontros' },
+    { icon: Check, label: 'Duração', value: '2 horas' },
+    { icon: Check, label: 'Entregável', value: 'pdf + planilhas comerciais' },
+    { icon: Check, label: 'Reuniões', value: '1 encontro online via meet' },
     { icon: Check, label: 'Suporte', value: '30 Dias' },
   ];
 
@@ -176,34 +176,7 @@ export default function PrecoBeneficiosSection() {
               </div>
             </div>
 
-            {/* Diferenciais exclusivos */}
-            <div className="p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
-              <h4 className="text-xl font-bold text-white mb-4">
-                Diferenciais Exclusivos
-              </h4>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-[#3331c1]/10 flex items-center justify-center">
-                    <Zap className="w-4 h-4 text-[#3331c1]" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-white">Lorem Ipsum</p>
-                    <p className="text-sm text-gray-400">Dolor sit amet</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-purple-500/10 flex items-center justify-center">
-                    <Users className="w-4 h-4 text-purple-400" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-white">Consectetur</p>
-                    <p className="text-sm text-gray-400">Adipiscing elit</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
 

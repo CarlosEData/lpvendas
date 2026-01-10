@@ -16,7 +16,7 @@ import HeroSection from '@/components/HeroSection';
 import MetodologiaSection from '@/components/MetodologiaSection';
 import ProcessoSection from '@/components/ProcessoSection';
 import PrecoBeneficiosSection from '@/components/PrecoBeneficiosSection';
-import ProvasSociaisSection from '@/components/ProvasSociaisSection';
+
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -37,8 +37,7 @@ export default function Home() {
       {/* Preço e Benefícios Section */}
       <PrecoBeneficiosSection />
 
-      {/* Provas Sociais Section */}
-      <ProvasSociaisSection />
+
 
       {/* Footer */}
       <Footer />

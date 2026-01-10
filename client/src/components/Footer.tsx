@@ -70,20 +70,7 @@ export default function Footer() {
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#3331c1] to-[#3331c1] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
               
-              <div className="flex items-center gap-3 text-gray-300">
-                <div className="flex items-center gap-2">
-                  <Phone className="w-5 h-5 text-[#3331c1]" />
-                  <span className="font-medium">Dúvidas?</span>
-                </div>
-                <a 
-                  href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-[#3331c1] transition-colors font-semibold"
-                >
-                  {formattedPhone}
-                </a>
-              </div>
+
             </div>
           </div>
         </div>
@@ -143,21 +130,7 @@ export default function Footer() {
                   </a>
                 </div>
 
-                {/* Contato direto */}
-                <div className="pt-4 border-t border-gray-800">
-                  <p className="text-gray-400 text-sm mb-2">
-                    Dúvidas ou suporte:
-                  </p>
-                  <a 
-                    href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white hover:text-[#3331c1] transition-colors font-medium inline-flex items-center gap-2"
-                  >
-                    <Phone className="w-4 h-4" />
-                    {formattedPhone}
-                  </a>
-                </div>
+
               </div>
             </div>
           </div>

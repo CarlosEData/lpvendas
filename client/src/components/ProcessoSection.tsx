@@ -28,7 +28,7 @@ export default function ProcessoSection() {
     {
       number: '03',
       title: 'Execução Guiada',
-      description: 'Acompanhamos a implementação do plano, garantindo que o time esteja alinhado e os processos rodando.',
+      description: 'Ajudaremos a implementar as primeiras ações para garantir que a teoria se transforme em resultados práticos.',
       features: ['Treinamento de time', 'Ajustes semanais', 'Mentoria estratégica']
     },
     {
@@ -63,7 +63,7 @@ export default function ProcessoSection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Como vamos construir sua{' '}
             <span className="bg-gradient-to-r from-[#3331c1] to-[#3331c1] bg-clip-text text-transparent">
-              Máquina de Vendas
+              Maquina de previsibilidade comercial
             </span>
           </h2>
           

@@ -61,7 +61,7 @@ export default function HeroSection() {
                 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 700 }}
               >
-                Pare de apagar incêndios e comece a escalar sua PME
+                O seu primeiro passo para alcançar a previsibilidade de receita
               </h1>
             </div>
             
@@ -69,7 +69,7 @@ export default function HeroSection() {
               className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl"
               style={{ fontFamily: 'Avenir, sans-serif' }}
             >
-              Saia da execução operacional e assuma o controle estratégico. Implementamos uma metodologia validada para organizar seus processos e acelerar suas vendas de forma previsível.
+              Com o Planejamento estratégico comercial da BX você vai conseguir criar estratégias para escalar sua empresa de forma previsível e assertiva.
             </p>
             
             {/* CTA Principal */}

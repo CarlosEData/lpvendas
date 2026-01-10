@@ -41,7 +41,6 @@ export default function Header() {
     { label: 'Metodologia', href: '#metodologia' },
     { label: 'Processo', href: '#processo' },
     { label: 'Benefícios', href: '#precos' },
-    { label: 'Depoimentos', href: '#clientes' },
   ];
 
   const scrollToSection = (href: string) => {

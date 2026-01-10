@@ -12,23 +12,23 @@ export default function MetodologiaSection() {
   const pillars = [
     {
       icon: Target,
-      title: 'Diagnóstico de Precisão',
-      description: 'Identificamos os gargalos que impedem sua PME de crescer, analisando processos, pessoas e ferramentas.',
+      title: 'Diagnóstico',
+      description: 'Você ganhará um diagnóstico de toda sua operação de marketing vendas.',
     },
     {
       icon: Zap,
-      title: 'Ação Estratégica',
-      description: 'Implementamos mudanças rápidas que geram fôlego financeiro e organização imediata.',
+      title: 'Estratégia',
+      description: 'Criaremos junto contigo a sua estratégia de escala de receita para o ano de 2026.',
     },
     {
       icon: Layers,
-      title: 'Estrutura Escalável',
-      description: 'Criamos processos que funcionam sem depender 100% do dono, permitindo a expansão sustentável.',
+      title: 'Execução',
+      description: 'Criaremos um calendário para você ter previsibilidade de onde você deve colocar energia e como você vai fazer pra obter resultado em cima da energia que foi colocado.',
     },
     {
       icon: TrendingUp,
-      title: 'Crescimento Exponencial',
-      description: 'Com a base sólida, sua empresa entra na fase de aceleração, onde cada esforço gera resultados multiplicados.',
+      title: 'Tração exponencial',
+      description: 'O último passo será você alcançar a atração exponencial onde o seu negócio cresce de maneira sólida e consistentente.',
     },
   ];
 
@@ -116,10 +116,10 @@ export default function MetodologiaSection() {
 
               {/* Pontos de destaque - 4 pontos com crescimento exponencial real */}
               {[
-                { x: 60, y: 300, label: 'Fase 1' },
-                { x: 240, y: 270, label: 'Fase 2' }, // Crescimento sutil: 100% → 140%
-                { x: 380, y: 145, label: 'Fase 3' }, // Aceleração: 140% → 260%
-                { x: 520, y: 30, label: 'Fase 4' },  // Crescimento agressivo: 260% → 500%
+                { x: 60, y: 300, label: 'Diagnóstico' },
+                { x: 240, y: 270, label: 'Estratégia' }, // Crescimento sutil: 100% → 140%
+                { x: 380, y: 145, label: 'Execução' }, // Aceleração: 140% → 260%
+                { x: 520, y: 30, label: 'Tração exponencial' },  // Crescimento agressivo: 260% → 500%
               ].map((point, i) => (
                 <g key={i}>
                   <circle
@@ -173,21 +173,22 @@ export default function MetodologiaSection() {
 
         {/* CTA abaixo dos cards */}
         <div className="mt-12 lg:mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-gradient-to-r from-[#3331c1] to-[#3331c1] rounded-2xl border border-[#3331c1]">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-8 bg-[#3331c1] rounded-2xl border border-[#3331c1] shadow-xl">
             <div className="text-left">
-              <h4 className="font-bold text-gray-900 text-lg mb-1">
+              <h4 className="font-bold text-white text-xl mb-2">
                 Pronto para crescimento exponencial?
               </h4>
-              <p className="text-gray-600 text-sm">
-                Agende uma consultoria gratuita e veja como aplicar esta metodologia no seu negócio
+              <p className="text-white/90 text-base">
+                Agende uma consultoria e veja como aplicar esta metodologia no seu negócio
               </p>
             </div>
-            <button className="px-6 py-3 bg-[#3331c1] hover:bg-[#3331c1] text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
+            <a 
+              href="https://chk.eduzz.com/E05X5474WX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white text-[#3331c1] hover:bg-gray-100 font-bold rounded-xl transition-all duration-200 shadow-lg whitespace-nowrap text-lg"
+            >
               Quero meu planejamento
-            </button>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
-  );
-}
