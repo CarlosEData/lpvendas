@@ -12,23 +12,23 @@ export default function MetodologiaSection() {
   const pillars = [
     {
       icon: Target,
-      title: 'Lorem Ipsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.',
+      title: 'Diagnóstico de Precisão',
+      description: 'Identificamos os gargalos que impedem sua PME de crescer, analisando processos, pessoas e ferramentas.',
     },
     {
       icon: Zap,
-      title: 'Dolor Sit Amet',
-      description: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      title: 'Ação Estratégica',
+      description: 'Implementamos mudanças rápidas que geram fôlego financeiro e organização imediata.',
     },
     {
       icon: Layers,
-      title: 'Consectetur',
-      description: 'Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.',
+      title: 'Estrutura Escalável',
+      description: 'Criamos processos que funcionam sem depender 100% do dono, permitindo a expansão sustentável.',
     },
     {
       icon: TrendingUp,
-      title: 'Adipiscing',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.',
+      title: 'Crescimento Exponencial',
+      description: 'Com a base sólida, sua empresa entra na fase de aceleração, onde cada esforço gera resultados multiplicados.',
     },
   ];
 
@@ -38,10 +38,10 @@ export default function MetodologiaSection() {
         {/* Cabeçalho */}
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Lorem Ipsum Dolor Sit
+            A Metodologia do Efeito Volante
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            O crescimento exponencial não acontece por sorte. Ele é o resultado de um volante que começa pesado, mas ganha velocidade e força a cada volta planejada.
           </p>
         </div>
 
@@ -183,7 +183,7 @@ export default function MetodologiaSection() {
               </p>
             </div>
             <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
-              Agendar Demonstração
+              Quero meu planejamento
             </button>
           </div>
         </div>

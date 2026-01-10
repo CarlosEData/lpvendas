@@ -52,9 +52,10 @@ export default function HeroSection() {
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-full backdrop-blur-sm">
                 <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                          <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
+                <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
                   Planejamento Estratégico Comercial
-                </span>pan>            </div>
+                </span>
+              </div>
               
               <h1 
                 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]"
@@ -78,7 +79,7 @@ export default function HeroSection() {
                 className="group relative px-16 py-5 bg-white text-black font-semibold text-lg rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_25px_50px_rgba(96,165,250,0.35)] active:scale-95 inline-flex items-center justify-center min-w-[280px]"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 600 }}
               >
-                <span className="relative z-10">Adquirir Planejamento</span>
+                <span className="relative z-10">Quero meu planejamento</span>
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#60a5fa]/30 via-white/20 to-[#60a5fa]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
               </button>
             </div>

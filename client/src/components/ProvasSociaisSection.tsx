@@ -113,15 +113,14 @@ export default function ProvasSociaisSection() {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Lorem Ipsum{' '}
+            Quem já transformou sua{' '}
             <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-              Dolor Sit
-            </span>{' '}
-            Amet
+              Realidade Comercial
+            </span>
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            Veja o que donos de empresas dizem sobre a clareza e os resultados obtidos após o planejamento.
           </p>
         </div>
 
@@ -287,7 +286,7 @@ export default function ProvasSociaisSection() {
               Junte-se ao grupo de empresários que decidiram sair do amadorismo e profissionalizar sua escala comercial.
             </p>
             <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2">
-              <span>Começar Agora</span>
+              <span>Quero meu planejamento</span>
               <svg 
                 className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
                 fill="none" 
