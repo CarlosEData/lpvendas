@@ -52,24 +52,23 @@ export default function HeroSection() {
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-full backdrop-blur-sm">
                 <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
-                  Lorem Ipsum Dolor
-                </span>
-              </div>
+                          <span className="text-sm font-medium text-blue-100" style={{ fontFamily: 'Avenir, sans-serif' }}>
+                  Planejamento Estratégico Comercial
+                </span>pan>            </div>
               
               <h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight whitespace-nowrap"
+                className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 700 }}
               >
-                Lorem Ipsum Dolor Sit
+                Pare de apagar incêndios e comece a escalar sua PME
               </h1>
             </div>
             
             <p 
-              className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-xl"
+              className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl"
               style={{ fontFamily: 'Avenir, sans-serif' }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Saia da execução operacional e assuma o controle estratégico. Implementamos uma metodologia validada para organizar seus processos e acelerar suas vendas de forma previsível.
             </p>
             
             {/* CTA Principal */}

@@ -30,9 +30,9 @@ export default function PrecoBeneficiosSection() {
   ];
 
   const guarantees = [
-    { text: 'Lorem ipsum dolor sit amet', highlight: '30 dias de garantia' },
-    { text: 'Consectetur adipiscing elit sed do', highlight: 'Suporte especializado' },
-    { text: 'Eiusmod tempor incididunt ut labore', highlight: 'Atualizações inclusas' },
+    { text: 'Sua satisfação ou seu dinheiro de volta', highlight: '30 dias de garantia' },
+    { text: 'Acompanhamento direto com especialistas', highlight: 'Suporte especializado' },
+    { text: 'Acesso a todas as ferramentas e templates', highlight: 'Materiais inclusos' },
   ];
 
   return (
@@ -64,7 +64,7 @@ export default function PrecoBeneficiosSection() {
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            Invista na clareza estratégica que sua empresa precisa para parar de patinar e começar a lucrar de verdade.
           </p>
         </div>
 
@@ -136,10 +136,10 @@ export default function PrecoBeneficiosSection() {
               <div className="mt-8 pt-6 border-t border-white/10">
                 <div className="flex items-center gap-3 mb-3">
                   <Shield className="w-5 h-5 text-green-400" />
-                  <span className="font-semibold text-white">Garantia de 30 dias</span>
+                  <span className="font-semibold text-white">Garantia Incondicional</span>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+                  Se em 30 dias você sentir que o planejamento não é para você, devolvemos 100% do seu investimento. Sem perguntas.
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function PrecoBeneficiosSection() {
             </div>
             
             <h3 className="text-2xl lg:text-3xl font-bold text-white">
-              Lorem ipsum dolor sit amet consectetur adipiscing
+              Assuma o controle do seu crescimento hoje mesmo
             </h3>
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -229,12 +229,12 @@ export default function PrecoBeneficiosSection() {
               </div>
               
               <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 whitespace-nowrap">
-                Adquirir Agora
+                Quero meu planejamento
               </button>
             </div>
             
             <p className="text-sm text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.
+              Oferta por tempo limitado. Vagas restritas para garantir a qualidade do acompanhamento.
             </p>
           </div>
         </div>

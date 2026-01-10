@@ -15,27 +15,27 @@ export default function ProcessoSection() {
   const steps = [
     {
       number: '01',
-      title: 'Lorem Ipsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.',
-      features: ['Análise detalhada', 'Diagnóstico completo', 'Mapeamento de oportunidades']
+      title: 'Imersão e Diagnóstico',
+      description: 'Analisamos profundamente seus números e processos para identificar onde o dinheiro está ficando pelo caminho.',
+      features: ['Auditoria de processos', 'Análise de funil', 'Mapeamento de gargalos']
     },
     {
       number: '02',
-      title: 'Dolor Sit Amet',
-      description: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      features: ['Estratégia personalizada', 'Plano de ação', 'Cronograma definido']
+      title: 'Desenho da Estratégia',
+      description: 'Criamos o mapa de guerra personalizado para sua PME, com metas claras e táticas de execução imediata.',
+      features: ['Plano de ação 90 dias', 'Definição de KPIs', 'Manual de táticas']
     },
     {
       number: '03',
-      title: 'Consectetur Adipiscing',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.',
-      features: ['Implementação faseada', 'Acompanhamento contínuo', 'Ajustes em tempo real']
+      title: 'Execução Guiada',
+      description: 'Acompanhamos a implementação do plano, garantindo que o time esteja alinhado e os processos rodando.',
+      features: ['Treinamento de time', 'Ajustes semanais', 'Mentoria estratégica']
     },
     {
       number: '04',
-      title: 'Elit Sed Do',
-      description: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.',
-      features: ['Otimização final', 'Escalabilidade', 'Relatórios completos']
+      title: 'Otimização e Escala',
+      description: 'Com a base sólida, ajustamos os detalhes para aumentar a eficiência e escalar seus resultados.',
+      features: ['Análise de ROI', 'Escala de canais', 'Previsibilidade total']
     },
   ];
 
@@ -61,15 +61,14 @@ export default function ProcessoSection() {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Lorem Ipsum{' '}
+            Como vamos construir sua{' '}
             <span className="bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-              Dolor Sit
-            </span>{' '}
-            Amet
+              Máquina de Vendas
+            </span>
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            Uma jornada estruturada para transformar sua operação comercial em um sistema de alta performance.
           </p>
         </div>
 
@@ -212,15 +211,15 @@ export default function ProcessoSection() {
           <div className="inline-flex flex-col sm:flex-row items-center gap-6 p-6 lg:p-8 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm rounded-2xl border border-white/10 max-w-3xl mx-auto">
             <div className="text-left">
               <h3 className="text-xl font-bold text-white mb-2">
-                Lorem ipsum dolor sit amet
+                Pronto para o próximo nível?
               </h3>
               <p className="text-gray-300 text-sm">
-                Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Não deixe o crescimento da sua empresa ao acaso. Garanta sua vaga para o próximo ciclo de planejamento.
               </p>
             </div>
             
             <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2 whitespace-nowrap">
-              <span>Adquirir Agora</span>
+              <span>Quero meu planejamento</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>

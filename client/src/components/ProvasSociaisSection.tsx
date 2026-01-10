@@ -15,39 +15,39 @@ export default function ProvasSociaisSection() {
 
   const testimonials = [
     {
-      name: 'Lorem Ipsum',
-      role: 'CEO, Empresa A',
-      company: 'Lorem Ipsum Inc.',
-      avatar: 'LI',
+      name: 'Ricardo Oliveira',
+      role: 'CEO',
+      company: 'TechFlow Soluções',
+      avatar: 'RO',
       rating: 5,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.',
+      text: 'O planejamento nos deu a clareza que faltava. Em 3 meses, organizamos o time e batemos recordes de vendas que pareciam impossíveis.',
       image: '👨‍💼'
     },
     {
-      name: 'Dolor Sit Amet',
-      role: 'Founder, Empresa B',
-      company: 'Dolor Sit Amet Co.',
-      avatar: 'DS',
+      name: 'Fernanda Costa',
+      role: 'Fundadora',
+      company: 'Studio Design Co.',
+      avatar: 'FC',
       rating: 5,
-      text: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.',
+      text: 'Eu vivia apagando incêndios. Hoje tenho um processo comercial que roda sozinho e me permite focar na estratégia do negócio.',
       image: '👩‍💼'
     },
     {
-      name: 'Consectetur Adipiscing',
-      role: 'Director, Empresa C',
-      company: 'Consectetur Inc.',
-      avatar: 'CA',
+      name: 'Marcos Silveira',
+      role: 'Diretor Comercial',
+      company: 'Logística Express',
+      avatar: 'MS',
       rating: 5,
-      text: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip.',
+      text: 'A metodologia do Efeito Volante é real. O começo exige esforço, mas depois que a máquina engrena, o crescimento é inevitável.',
       image: '👨‍💻'
     },
     {
-      name: 'Elit Sed Do',
-      role: 'Manager, Empresa D',
-      company: 'Elit Sed Do Ltd.',
-      avatar: 'ES',
+      name: 'Juliana Mendes',
+      role: 'Gerente Geral',
+      company: 'Mendes Varejo',
+      avatar: 'JM',
       rating: 5,
-      text: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.',
+      text: 'Finalmente temos previsibilidade. Sei exatamente quanto vamos vender no próximo mês e onde investir para escalar.',
       image: '👩‍🎓'
     },
   ];
@@ -62,10 +62,10 @@ export default function ProvasSociaisSection() {
   ];
 
   const stats = [
-    { value: '500+', label: 'Lorem Ipsum', description: 'Dolor sit amet consectetur' },
-    { value: '98%', label: 'Dolor Sit', description: 'Adipiscing elit sed do' },
-    { value: '10+', label: 'Consectetur', description: 'Eiusmod tempor incididunt' },
-    { value: '24/7', label: 'Adipiscing', description: 'Ut labore et dolore' },
+    { value: '150+', label: 'Empresas', description: 'Planejadas e estruturadas' },
+    { value: '94%', label: 'Satisfação', description: 'NPS dos nossos clientes' },
+    { value: '3x', label: 'Crescimento', description: 'Média de escala em 1 ano' },
+    { value: 'R$ 10M+', label: 'Gerados', description: 'Em novas vendas anuais' },
   ];
 
   // Auto-play para o carrossel
@@ -281,10 +281,10 @@ export default function ProvasSociaisSection() {
         <div className="mt-16 lg:mt-20 text-center">
           <div className="inline-flex flex-col items-center gap-6 p-8 lg:p-10 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm rounded-2xl border border-white/10 max-w-2xl mx-auto">
             <h3 className="text-2xl lg:text-3xl font-bold text-white">
-              Lorem ipsum dolor sit amet consectetur
+              Sua empresa merece um futuro planejado
             </h3>
             <p className="text-gray-300 max-w-lg">
-              Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Junte-se ao grupo de empresários que decidiram sair do amadorismo e profissionalizar sua escala comercial.
             </p>
             <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center gap-2">
               <span>Começar Agora</span>

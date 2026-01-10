@@ -56,7 +56,7 @@ export default function Footer() {
             </h2>
             
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+              Não deixe o futuro da sua empresa ao acaso. Comece hoje a construir uma operação comercial sólida e lucrativa.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -66,7 +66,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 text-lg min-w-[280px]"
               >
-                <span className="relative z-10">Adquirir Agora</span>
+                <span className="relative z-10">Quero meu planejamento</span>
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
               
