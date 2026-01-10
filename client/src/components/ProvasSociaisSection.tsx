@@ -285,17 +285,22 @@ export default function ProvasSociaisSection() {
             <p className="text-gray-300 max-w-lg">
               Junte-se ao grupo de empresários que decidiram sair do amadorismo e profissionalizar sua escala comercial.
             </p>
-            <button className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2">
+            <a 
+              href="https://chk.eduzz.com/E05X5474WX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 inline-flex items-center gap-2 text-center"
+            >
               <span>Quero meu planejamento</span>
               <svg 
                 className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
                 fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -74,14 +74,16 @@ export default function HeroSection() {
             
             {/* CTA Principal */}
             <div className="pt-8">
-              <button 
-                onClick={handleCtaClick}
-                className="group relative px-16 py-5 bg-white text-black font-semibold text-lg rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_25px_50px_rgba(96,165,250,0.35)] active:scale-95 inline-flex items-center justify-center min-w-[280px]"
+              <a 
+                href="https://chk.eduzz.com/E05X5474WX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative px-16 py-5 bg-white text-black font-semibold text-lg rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_25px_50px_rgba(51,49,193,0.35)] active:scale-95 inline-flex items-center justify-center min-w-[280px]"
                 style={{ fontFamily: 'Helvetica, sans-serif', fontWeight: 600 }}
               >
                 <span className="relative z-10">Quero meu planejamento</span>
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#3331c1]/30 via-white/20 to-[#3331c1]/30 blur-2xl animate-[pulse_3s_ease-in-out_infinite]" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

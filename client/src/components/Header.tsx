@@ -109,12 +109,14 @@ export default function Header() {
 
           {/* Desktop CTA Button */}
           <div className="hidden lg:flex items-center">
-            <button 
-              onClick={handleCtaClick}
+            <a 
+              href="https://chk.eduzz.com/E05X5474WX"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 focus:outline-none"
             >
                 Quero meu planejamento
-              </button>
+              </a>
             </div>
 
           {/* Mobile Menu Button */}
@@ -146,15 +148,15 @@ export default function Header() {
               ))}
               
               <div className="pt-6 mt-6 border-t border-gray-200 space-y-4">
-                <button 
-                  onClick={() => {
-                    handleCtaClick();
-                    setIsOpen(false);
-                  }}
-                  className="block w-full px-4 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-colors shadow-md focus:outline-none"
+                <a 
+                  href="https://chk.eduzz.com/E05X5474WX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsOpen(false)}
+                  className="block w-full text-center px-4 py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:from-[#3331c1] hover:to-[#3331c1] transition-colors shadow-md focus:outline-none"
                 >
                   Quero meu planejamento
-                </button>
+                </a>
               </div>
             </nav>
           </div>

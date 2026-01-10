@@ -121,9 +121,14 @@ export default function PrecoBeneficiosSection() {
 
               {/* CTA principal */}
               <div className="space-y-4">
-                <button className="w-full py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 active:scale-95 text-lg">
+                <a 
+                  href="https://chk.eduzz.com/E05X5474WX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full py-4 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 active:scale-95 text-lg text-center"
+                >
                   Quero meu planejamento
-                </button>
+                </a>
                 
                 <div className="text-center">
                   <p className="text-gray-400 text-sm">
@@ -228,9 +233,14 @@ export default function PrecoBeneficiosSection() {
                 </div>
               </div>
               
-              <button className="px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 whitespace-nowrap">
+              <a 
+                href="https://chk.eduzz.com/E05X5474WX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-gradient-to-r from-[#3331c1] to-[#3331c1] text-white font-semibold rounded-lg hover:shadow-xl hover:shadow-[#3331c1]/25 transition-all duration-300 whitespace-nowrap text-center"
+              >
                 Quero meu planejamento
-              </button>
+              </a>
             </div>
             
             <p className="text-sm text-gray-400">
