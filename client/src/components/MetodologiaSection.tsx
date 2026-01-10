@@ -56,8 +56,8 @@ export default function MetodologiaSection() {
             </div>
 
             <svg
-              viewBox="0 0 600 300"
-              className="w-full h-full"
+              viewBox="0 0 600 320"
+              className="w-full h-auto min-h-[200px]"
               preserveAspectRatio="xMidYMid meet"
             >
               <defs>
@@ -145,24 +145,24 @@ export default function MetodologiaSection() {
             </svg>
           </div>
 
-          {/* Grid de cards - 2x2 em mobile, mesma altura do gráfico */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 h-full">
+          {/* Grid de cards - 2x2 em mobile e desktop, mesma altura do gráfico */}
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 h-full">
             {pillars.map((pillar, index) => {
               const Icon = pillar.icon;
               return (
                 <div
                   key={index}
-                  className="bg-white rounded-xl border border-gray-200 p-5 hover:border-gray-300 transition-colors h-full flex flex-col"
+                  className="bg-white rounded-xl border border-gray-200 p-3 sm:p-5 hover:border-gray-300 transition-colors h-full flex flex-col"
                 >
-                  <div className="mb-4 inline-flex p-3 bg-[#3331c1]/10 rounded-lg">
-                    <Icon className="w-5 h-5 text-[#3331c1]" />
+                  <div className="mb-2 sm:mb-4 inline-flex p-2 sm:p-3 bg-[#3331c1]/10 rounded-lg w-fit">
+                    <Icon className="w-4 h-4 sm:w-5 sm:h-5 text-[#3331c1]" />
                   </div>
 
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                  <h3 className="text-sm sm:text-lg font-bold text-gray-900 mb-1 sm:mb-3">
                     {pillar.title}
                   </h3>
                   
-                  <p className="text-gray-600 text-sm leading-relaxed flex-grow">
+                  <p className="text-[10px] sm:text-sm text-gray-600 leading-tight sm:leading-relaxed flex-grow">
                     {pillar.description}
                   </p>
                 </div>

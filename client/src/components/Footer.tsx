@@ -140,7 +140,7 @@ export default function Footer() {
               </p>
               {/* CNPJ escondido para SEO mas visível */}
               <p className="text-gray-600 text-xs mt-1">
-                CNPJ: 00.000.000/0000-00
+                CNPJ: 63.031.848/0001-06
               </p>
             </div>
 

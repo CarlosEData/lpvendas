@@ -9,9 +9,9 @@
 import { Check, Shield, Zap, Clock, Users, Star, Target, TrendingUp } from 'lucide-react';
 
 export default function PrecoBeneficiosSection() {
-  const productPrice = 2997; // Valor único do planejamento estratégico
-  const installmentPrice = 299; // Valor da parcela (10x sem juros)
-  const installments = 10; // Número de parcelas
+  const productPrice = 49.99; // Valor único do planejamento estratégico
+  const installmentPrice = 10.65; // Valor aproximado da parcela (5x com juros padrão Eduzz)
+  const installments = 5; // Número de parcelas coerente para R$ 49,99
 
   const benefits = [
     { icon: Target, text: 'Diagnóstico completo do cenário atual' },
@@ -24,8 +24,8 @@ export default function PrecoBeneficiosSection() {
 
   const features = [
     { icon: Check, label: 'Duração', value: '2 horas' },
-    { icon: Check, label: 'Entregável', value: 'pdf + planilhas comerciais' },
-    { icon: Check, label: 'Reuniões', value: '1 encontro online via meet' },
+    { icon: Check, label: 'Entregáveis', value: 'PDF + Planilhas' },
+    { icon: Check, label: 'Reuniões', value: '1 Encontro Online' },
     { icon: Check, label: 'Suporte', value: '30 Dias' },
   ];
 
@@ -83,7 +83,7 @@ export default function PrecoBeneficiosSection() {
 
               {/* Preço à vista */}
               <div className="mb-8 pt-4">
-                <div className="flex items-baseline gap-2 mb-2">
+                <div className="flex items-baseline flex-wrap gap-2 mb-2">
                   <span className="text-5xl lg:text-6xl font-bold text-white">
                     R$ {productPrice.toFixed(2).replace('.', ',')}
                   </span>
@@ -93,7 +93,7 @@ export default function PrecoBeneficiosSection() {
                 </div>
                 
                 <p className="text-lg text-gray-400 mb-6">
-                  ou {installments}x de R$ {installmentPrice.toFixed(2).replace('.', ',')} sem juros
+                  ou em até {installments}x no cartão
                 </p>
                 
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-lg">
@@ -107,14 +107,14 @@ export default function PrecoBeneficiosSection() {
               {/* Features do produto */}
               <div className="mb-8 space-y-4">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex items-center justify-between py-3 border-b border-white/5 last:border-0">
+                  <div key={index} className="flex flex-col sm:flex-row sm:items-center justify-between py-3 border-b border-white/5 last:border-0 gap-1 sm:gap-4">
                     <div className="flex items-center gap-3">
                       <div className="p-2 bg-[#3331c1]/10 rounded-lg">
                         <feature.icon className="w-4 h-4 text-[#3331c1]" />
                       </div>
-                      <span className="text-gray-300">{feature.label}</span>
+                      <span className="text-gray-300 text-sm sm:text-base">{feature.label}</span>
                     </div>
-                    <span className="font-medium text-white">{feature.value}</span>
+                    <span className="font-medium text-white text-sm sm:text-base sm:text-right">{feature.value}</span>
                   </div>
                 ))}
               </div>
@@ -196,12 +196,12 @@ export default function PrecoBeneficiosSection() {
                 <p className="text-gray-300 mb-1">
                   Investimento único de
                 </p>
-                <div className="flex items-baseline gap-2">
+                <div className="flex items-baseline flex-wrap gap-2">
                   <span className="text-3xl font-bold text-white">
                     R$ {productPrice.toFixed(2).replace('.', ',')}
                   </span>
                   <span className="text-gray-400">
-                    ou {installments}x de R$ {installmentPrice.toFixed(2).replace('.', ',')}
+                    ou em até {installments}x
                   </span>
                 </div>
               </div>
